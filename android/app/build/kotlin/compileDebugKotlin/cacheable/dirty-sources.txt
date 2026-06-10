@@ -1,0 +1,10 @@
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/model/WiFiAccessPoint.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/service/CollectorService.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/model/PingRequest.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/model/LocationData.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/MainActivity.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/receiver/BootReceiver.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/network/ApiClient.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/util/BatteryOptimizationHelper.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/model/CellTower.kt
+/home/sapphire/pathfinder-platform/android/app/src/main/java/com/pathfinder/collector/util/PermissionHelper.kt

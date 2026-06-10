@@ -1,0 +1,209 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pathfinder.collector"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:4:5-79
+11-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:4:22-76
+12    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+12-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:5:5-85
+12-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:5:22-82
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:6:5-76
+13-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+14-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:7:5-76
+14-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:7:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:8:5-79
+15-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:8:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:9:5-67
+16-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:9:22-64
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:10:5-75
+17-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:10:22-72
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:11:5-77
+18-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:11:22-74
+19    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
+19-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:12:5-86
+19-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:12:22-83
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:13:5-81
+20-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:13:22-78
+21
+22    <permission
+22-->[androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+23        android:name="com.pathfinder.collector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.pathfinder.collector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+27
+28    <supports-screens
+28-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:9:5-12:40
+29        android:anyDensity="true"
+29-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:10:9-34
+30        android:largeScreens="true"
+30-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:11:9-36
+31        android:normalScreens="true" />
+31-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:12:9-37
+32
+33    <uses-feature
+33-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:14:5-16:36
+34        android:name="android.hardware.location.network"
+34-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:15:9-57
+35        android:required="false" />
+35-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:16:9-33
+36    <uses-feature
+36-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:17:5-19:36
+37        android:name="android.hardware.location.gps"
+37-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:18:9-53
+38        android:required="false" />
+38-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:19:9-33
+39    <uses-feature
+39-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:20:5-22:36
+40        android:name="android.hardware.telephony"
+40-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:21:9-50
+41        android:required="false" />
+41-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:22:9-33
+42    <uses-feature
+42-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:23:5-25:36
+43        android:name="android.hardware.wifi"
+43-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:24:9-45
+44        android:required="false" />
+44-->[org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:25:9-33
+45
+46    <application
+46-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:15:5-42:19
+47        android:allowBackup="true"
+47-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:16:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+49        android:debuggable="true"
+50        android:extractNativeLibs="false"
+51        android:label="@string/app_name"
+51-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:18:9-41
+52        android:supportsRtl="true"
+52-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:17:9-35
+53        android:theme="@style/Theme.PathFinder" >
+53-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:19:9-48
+54        <activity
+54-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:21:9-28:20
+55            android:name="com.pathfinder.collector.MainActivity"
+55-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:22:13-41
+56            android:exported="true" >
+56-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:23:13-36
+57            <intent-filter>
+57-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:24:13-27:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:25:17-69
+58-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:25:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:26:17-77
+60-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:26:27-74
+61            </intent-filter>
+62        </activity>
+63
+64        <service
+64-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:30:9-33:40
+65            android:name="com.pathfinder.collector.service.CollectorService"
+65-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:31:13-53
+66            android:exported="false"
+66-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:33:13-37
+67            android:foregroundServiceType="location" />
+67-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:32:13-53
+68
+69        <receiver
+69-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:35:9-41:20
+70            android:name="com.pathfinder.collector.receiver.BootReceiver"
+70-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:36:13-50
+71            android:exported="true" >
+71-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:37:13-36
+72            <intent-filter>
+72-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:38:13-40:29
+73                <action android:name="android.intent.action.BOOT_COMPLETED" />
+73-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:39:17-79
+73-->/home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:39:25-76
+74            </intent-filter>
+75        </receiver>
+76
+77        <provider
+77-->[androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+78            android:name="androidx.startup.InitializationProvider"
+78-->[androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+79            android:authorities="com.pathfinder.collector.androidx-startup"
+79-->[androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+80            android:exported="false" >
+80-->[androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+81            <meta-data
+81-->[androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+82                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+82-->[androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+83                android:value="androidx.startup" />
+83-->[androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+84            <meta-data
+84-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+85                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+85-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+86                android:value="androidx.startup" />
+86-->[androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+87            <meta-data
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+88                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+89                android:value="androidx.startup" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+90        </provider>
+91
+92        <receiver
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+93            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+94            android:directBootAware="false"
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+95            android:enabled="true"
+95-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+96            android:exported="true"
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+97            android:permission="android.permission.DUMP" >
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+98            <intent-filter>
+98-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+99                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+100            </intent-filter>
+101            <intent-filter>
+101-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+102                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+103            </intent-filter>
+104            <intent-filter>
+104-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+105                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+106            </intent-filter>
+107            <intent-filter>
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+108                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+108-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+109            </intent-filter>
+110        </receiver>
+111    </application>
+112
+113</manifest>

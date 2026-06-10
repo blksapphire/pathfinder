@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_notification
+drawable panel_background
+id bottomPanel
+id cellListText
+id fabInfo
+id fabTogglePanel
+id mapView
+id speedText
+id toggleHint
+id wifiListText
+layout activity_main
+string app_name
+style Theme.PathFinder

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Speed display (top left) -->
+    <TextView
+        android:id="@+id/speedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="12dp"
+        android:background="#CC333333"
+        android:padding="8dp"
+        android:text="0 km/h"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Toggle button to show/hide signal panel -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabTogglePanel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="80dp"
+        android:contentDescription="Show/hide network info"
+        app:srcCompat="@android:drawable/ic_menu_sort_alphabetically"
+        app:backgroundTint="#FFBB86FC"
+        android:visibility="gone"/>
+
+    <!-- Info / About button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:contentDescription="About"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        app:backgroundTint="#FFBB86FC" />
+
+    <!-- Collapsible bottom panel -->
+    <LinearLayout
+        android:id="@+id/bottomPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:background="@drawable/panel_background"
+        android:padding="12dp"
+        android:elevation="8dp"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Nearby signals"
+                android:textColor="#FFBB86FC"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/toggleHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tap ▼"
+                android:textColor="#AAAAAA"
+                android:textSize="12sp"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFBB86FC"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/wifiListText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WiFi: scanning..."
+            android:textColor="#CCCCCC"
+            android:textSize="13sp"
+            android:maxLines="6"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.2" />
+
+        <TextView
+            android:id="@+id/cellListText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cell: scanning..."
+            android:textColor="#CCCCCC"
+            android:textSize="13sp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+
+</RelativeLayout>

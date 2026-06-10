@@ -1,0 +1,377 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:2:1-43:12
+INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:2:1-43:12
+MERGED from [com.google.android.material:material:1.11.0] /home/sapphire/.gradle/caches/transforms-4/c28bbbc2a92ca476f88c575f0dd81fe4/transformed/material-1.11.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/sapphire/.gradle/caches/transforms-4/452c0cdd8a90dcfdc2ba9d8d0353c253/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/sapphire/.gradle/caches/transforms-4/4f58c9fa22a0ee8adde0b6bdbdeaeade/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/sapphire/.gradle/caches/transforms-4/e525b4b20cf488dcb7dac147253c82c9/transformed/appcompat-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/sapphire/.gradle/caches/transforms-4/956bac75d5c89bcb345716511d97f9d2/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sapphire/.gradle/caches/transforms-4/cb953fb7b780850cb20cb7d6358969a2/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sapphire/.gradle/caches/transforms-4/e81222577287d13ff323e04ddedd8242/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.8.0] /home/sapphire/.gradle/caches/transforms-4/40b461153d5e867249383262bab6b954/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sapphire/.gradle/caches/transforms-4/dabe689a35df26bb0dcc0d7cad575bd6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sapphire/.gradle/caches/transforms-4/a3b6356bd6284a56af3936638a9bf59f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f3f62c23301a96d2bf71ea7f26443782/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /home/sapphire/.gradle/caches/transforms-4/b616187fd5ca5a70aefd0b5f93f60d4d/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sapphire/.gradle/caches/transforms-4/0357e989fca04f9e1b0bc2ad1cea7b71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sapphire/.gradle/caches/transforms-4/ba5d691a064737e424482478dba03ead/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sapphire/.gradle/caches/transforms-4/3f94813b9f63bee7a809bbe7ff4b0e73/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sapphire/.gradle/caches/transforms-4/6936962a29c315bfb71ac044529c4a21/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/sapphire/.gradle/caches/transforms-4/7843949046865ab31a7b7e93d03e5682/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sapphire/.gradle/caches/transforms-4/4623089df65fe6eb130cdc60bb34bcd3/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] /home/sapphire/.gradle/caches/transforms-4/8f8f0e62d2d2fc641c9b2fc71ccf82cc/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/sapphire/.gradle/caches/transforms-4/59688f5f71ed6a8f7f55a11fd32c6431/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/sapphire/.gradle/caches/transforms-4/fdd52e3e3805ecae7bc2b51fb9903e4a/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/sapphire/.gradle/caches/transforms-4/7bda198a0e89fccdfb73c3905c045dc4/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/sapphire/.gradle/caches/transforms-4/5629cbd501a8e4dc6828cc92561b74aa/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/sapphire/.gradle/caches/transforms-4/196f4befce1b955c1217f009cbd7acbb/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f7a5c3b2dcb1fc438f2ff4099d4c8be1/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.12.0] /home/sapphire/.gradle/caches/transforms-4/305df038b4ce3512284e56ff2077328a/transformed/core-ktx-1.12.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/sapphire/.gradle/caches/transforms-4/a1dde33152580af30808e0e0ce487a71/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sapphire/.gradle/caches/transforms-4/4ada108eae25e82a8335eaf18a2488b4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sapphire/.gradle/caches/transforms-4/25c5032e977fa085edeb7f00163bf819/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sapphire/.gradle/caches/transforms-4/98bf21bd2855e4146c36ae10fa119862/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sapphire/.gradle/caches/transforms-4/c2261ed6028b7f6e2e8c3200084caece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sapphire/.gradle/caches/transforms-4/ac75df7b35690cf00312b8e5a296932d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f582fe794c966a38fd5a42652bcf05a5/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/sapphire/.gradle/caches/transforms-4/0db0201f63a34d0c398dc3a5d8ff26e8/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f8ef21d146d0b4b53998ac4495b4333c/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sapphire/.gradle/caches/transforms-4/8a05f80c9f8b1a4c574419125075b505/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/sapphire/.gradle/caches/transforms-4/74e1adc7f60fcc047aa49b8920e31441/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:2:1-27:12
+	package
+		INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:4:22-76
+uses-permission#android.permission.ACCESS_BACKGROUND_LOCATION
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:5:5-85
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:5:22-82
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:6:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:7:5-76
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:7:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:9:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:10:5-75
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:10:22-72
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:11:5-77
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:11:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_LOCATION
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:12:5-86
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:12:22-83
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:13:22-78
+application
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:15:5-42:19
+INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:15:5-42:19
+MERGED from [com.google.android.material:material:1.11.0] /home/sapphire/.gradle/caches/transforms-4/c28bbbc2a92ca476f88c575f0dd81fe4/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.11.0] /home/sapphire/.gradle/caches/transforms-4/c28bbbc2a92ca476f88c575f0dd81fe4/transformed/material-1.11.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/sapphire/.gradle/caches/transforms-4/4f58c9fa22a0ee8adde0b6bdbdeaeade/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/sapphire/.gradle/caches/transforms-4/4f58c9fa22a0ee8adde0b6bdbdeaeade/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sapphire/.gradle/caches/transforms-4/c2261ed6028b7f6e2e8c3200084caece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sapphire/.gradle/caches/transforms-4/c2261ed6028b7f6e2e8c3200084caece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sapphire/.gradle/caches/transforms-4/ac75df7b35690cf00312b8e5a296932d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sapphire/.gradle/caches/transforms-4/ac75df7b35690cf00312b8e5a296932d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:18:9-41
+	android:allowBackup
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:16:9-35
+	android:theme
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:19:9-48
+activity#com.pathfinder.collector.MainActivity
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:21:9-28:20
+	android:exported
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:22:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:24:13-27:29
+action#android.intent.action.MAIN
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:26:27-74
+service#com.pathfinder.collector.service.CollectorService
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:30:9-33:40
+	android:exported
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:33:13-37
+	android:foregroundServiceType
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:32:13-53
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:31:13-53
+receiver#com.pathfinder.collector.receiver.BootReceiver
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:35:9-41:20
+	android:exported
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:36:13-50
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:38:13-40:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:39:17-79
+	android:name
+		ADDED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml:39:25-76
+uses-sdk
+INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.material:material:1.11.0] /home/sapphire/.gradle/caches/transforms-4/c28bbbc2a92ca476f88c575f0dd81fe4/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.11.0] /home/sapphire/.gradle/caches/transforms-4/c28bbbc2a92ca476f88c575f0dd81fe4/transformed/material-1.11.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/sapphire/.gradle/caches/transforms-4/452c0cdd8a90dcfdc2ba9d8d0353c253/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] /home/sapphire/.gradle/caches/transforms-4/452c0cdd8a90dcfdc2ba9d8d0353c253/transformed/appcompat-resources-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/sapphire/.gradle/caches/transforms-4/4f58c9fa22a0ee8adde0b6bdbdeaeade/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/sapphire/.gradle/caches/transforms-4/4f58c9fa22a0ee8adde0b6bdbdeaeade/transformed/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/sapphire/.gradle/caches/transforms-4/e525b4b20cf488dcb7dac147253c82c9/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] /home/sapphire/.gradle/caches/transforms-4/e525b4b20cf488dcb7dac147253c82c9/transformed/appcompat-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/sapphire/.gradle/caches/transforms-4/956bac75d5c89bcb345716511d97f9d2/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] /home/sapphire/.gradle/caches/transforms-4/956bac75d5c89bcb345716511d97f9d2/transformed/emoji2-views-helper-1.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sapphire/.gradle/caches/transforms-4/cb953fb7b780850cb20cb7d6358969a2/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/sapphire/.gradle/caches/transforms-4/cb953fb7b780850cb20cb7d6358969a2/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sapphire/.gradle/caches/transforms-4/e81222577287d13ff323e04ddedd8242/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /home/sapphire/.gradle/caches/transforms-4/e81222577287d13ff323e04ddedd8242/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.8.0] /home/sapphire/.gradle/caches/transforms-4/40b461153d5e867249383262bab6b954/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/sapphire/.gradle/caches/transforms-4/40b461153d5e867249383262bab6b954/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sapphire/.gradle/caches/transforms-4/dabe689a35df26bb0dcc0d7cad575bd6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/sapphire/.gradle/caches/transforms-4/dabe689a35df26bb0dcc0d7cad575bd6/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sapphire/.gradle/caches/transforms-4/a3b6356bd6284a56af3936638a9bf59f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/sapphire/.gradle/caches/transforms-4/a3b6356bd6284a56af3936638a9bf59f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f3f62c23301a96d2bf71ea7f26443782/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f3f62c23301a96d2bf71ea7f26443782/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /home/sapphire/.gradle/caches/transforms-4/b616187fd5ca5a70aefd0b5f93f60d4d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/sapphire/.gradle/caches/transforms-4/b616187fd5ca5a70aefd0b5f93f60d4d/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sapphire/.gradle/caches/transforms-4/0357e989fca04f9e1b0bc2ad1cea7b71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/sapphire/.gradle/caches/transforms-4/0357e989fca04f9e1b0bc2ad1cea7b71/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sapphire/.gradle/caches/transforms-4/ba5d691a064737e424482478dba03ead/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/sapphire/.gradle/caches/transforms-4/ba5d691a064737e424482478dba03ead/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sapphire/.gradle/caches/transforms-4/3f94813b9f63bee7a809bbe7ff4b0e73/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/sapphire/.gradle/caches/transforms-4/3f94813b9f63bee7a809bbe7ff4b0e73/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sapphire/.gradle/caches/transforms-4/6936962a29c315bfb71ac044529c4a21/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/sapphire/.gradle/caches/transforms-4/6936962a29c315bfb71ac044529c4a21/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sapphire/.gradle/caches/transforms-4/7843949046865ab31a7b7e93d03e5682/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/sapphire/.gradle/caches/transforms-4/7843949046865ab31a7b7e93d03e5682/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sapphire/.gradle/caches/transforms-4/4623089df65fe6eb130cdc60bb34bcd3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/sapphire/.gradle/caches/transforms-4/4623089df65fe6eb130cdc60bb34bcd3/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/sapphire/.gradle/caches/transforms-4/8f8f0e62d2d2fc641c9b2fc71ccf82cc/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/sapphire/.gradle/caches/transforms-4/8f8f0e62d2d2fc641c9b2fc71ccf82cc/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/sapphire/.gradle/caches/transforms-4/59688f5f71ed6a8f7f55a11fd32c6431/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/sapphire/.gradle/caches/transforms-4/59688f5f71ed6a8f7f55a11fd32c6431/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/sapphire/.gradle/caches/transforms-4/fdd52e3e3805ecae7bc2b51fb9903e4a/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /home/sapphire/.gradle/caches/transforms-4/fdd52e3e3805ecae7bc2b51fb9903e4a/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/sapphire/.gradle/caches/transforms-4/7bda198a0e89fccdfb73c3905c045dc4/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /home/sapphire/.gradle/caches/transforms-4/7bda198a0e89fccdfb73c3905c045dc4/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/sapphire/.gradle/caches/transforms-4/5629cbd501a8e4dc6828cc92561b74aa/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /home/sapphire/.gradle/caches/transforms-4/5629cbd501a8e4dc6828cc92561b74aa/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/sapphire/.gradle/caches/transforms-4/196f4befce1b955c1217f009cbd7acbb/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /home/sapphire/.gradle/caches/transforms-4/196f4befce1b955c1217f009cbd7acbb/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f7a5c3b2dcb1fc438f2ff4099d4c8be1/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f7a5c3b2dcb1fc438f2ff4099d4c8be1/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/sapphire/.gradle/caches/transforms-4/305df038b4ce3512284e56ff2077328a/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.12.0] /home/sapphire/.gradle/caches/transforms-4/305df038b4ce3512284e56ff2077328a/transformed/core-ktx-1.12.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/sapphire/.gradle/caches/transforms-4/a1dde33152580af30808e0e0ce487a71/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /home/sapphire/.gradle/caches/transforms-4/a1dde33152580af30808e0e0ce487a71/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sapphire/.gradle/caches/transforms-4/4ada108eae25e82a8335eaf18a2488b4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/sapphire/.gradle/caches/transforms-4/4ada108eae25e82a8335eaf18a2488b4/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sapphire/.gradle/caches/transforms-4/25c5032e977fa085edeb7f00163bf819/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/sapphire/.gradle/caches/transforms-4/25c5032e977fa085edeb7f00163bf819/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sapphire/.gradle/caches/transforms-4/98bf21bd2855e4146c36ae10fa119862/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/sapphire/.gradle/caches/transforms-4/98bf21bd2855e4146c36ae10fa119862/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sapphire/.gradle/caches/transforms-4/c2261ed6028b7f6e2e8c3200084caece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/sapphire/.gradle/caches/transforms-4/c2261ed6028b7f6e2e8c3200084caece/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sapphire/.gradle/caches/transforms-4/ac75df7b35690cf00312b8e5a296932d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sapphire/.gradle/caches/transforms-4/ac75df7b35690cf00312b8e5a296932d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f582fe794c966a38fd5a42652bcf05a5/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f582fe794c966a38fd5a42652bcf05a5/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/sapphire/.gradle/caches/transforms-4/0db0201f63a34d0c398dc3a5d8ff26e8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/sapphire/.gradle/caches/transforms-4/0db0201f63a34d0c398dc3a5d8ff26e8/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f8ef21d146d0b4b53998ac4495b4333c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/sapphire/.gradle/caches/transforms-4/f8ef21d146d0b4b53998ac4495b4333c/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sapphire/.gradle/caches/transforms-4/8a05f80c9f8b1a4c574419125075b505/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/sapphire/.gradle/caches/transforms-4/8a05f80c9f8b1a4c574419125075b505/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sapphire/.gradle/caches/transforms-4/74e1adc7f60fcc047aa49b8920e31441/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/sapphire/.gradle/caches/transforms-4/74e1adc7f60fcc047aa49b8920e31441/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/sapphire/pathfinder-platform/android/app/src/main/AndroidManifest.xml
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sapphire/.gradle/caches/transforms-4/ac75df7b35690cf00312b8e5a296932d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/sapphire/.gradle/caches/transforms-4/ac75df7b35690cf00312b8e5a296932d/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] /home/sapphire/.gradle/caches/transforms-4/adfa574f076dd03f9c8fe1a2f4e04aae/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+permission#com.pathfinder.collector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+uses-permission#com.pathfinder.collector.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.12.0] /home/sapphire/.gradle/caches/transforms-4/db0da8369b4573b55caee892c85a11b6/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.1] /home/sapphire/.gradle/caches/transforms-4/f9b86b9ca92f5297475f93cc428141c3/transformed/lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /home/sapphire/.gradle/caches/transforms-4/0b5f8ff8f60f68dddd8e5eab4de1d82b/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.18] /home/sapphire/.gradle/caches/transforms-4/2627fe88e44a2308d55f467d53a45004/transformed/osmdroid-android-6.1.18/AndroidManifest.xml:24:9-45
